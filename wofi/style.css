@@ -1,0 +1,29 @@
+* {
+   border-radius: 5px;
+   border: none;
+}
+
+window {
+  font-size: 28px;
+  background: rgba(36, 39, 58, 0.9);
+  color: white;
+}
+
+#entry {
+  padding: 0.25em;
+}
+
+#entry:selected {
+  background-color: rgba(232,181,234,255);
+  background: linear-gradient(90deg, #cea5f3, #edb8e9);
+}
+
+#text:selected {
+  color: rgba(0,0,0,255);
+}
+
+#input {
+  background-color: rgba(36, 39, 58, 0.5);
+  color: rgb(255, 255, 255);
+  padding: 0.25em;
+}
